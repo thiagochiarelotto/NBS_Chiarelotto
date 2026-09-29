@@ -1,0 +1,20 @@
+{
+  "name": "website-monitor",
+  "version": "1.0.0",
+  "description": "Monitoramento de atualização de sites com notificações via Telegram",
+  "license": "ISC",
+  "author": "Thiago Chiarelotto",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "disponibilidade_nfe": "node src/disponibilidade-nfe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  }
+}

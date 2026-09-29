@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Segredos — nunca versionar
+.env
+.env.*
+!.env.example
+
+# Arquivos de estado gerados em tempo de execução
+state.json
+state-disponibilidade-nfe.json
+municipios-nfse.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
